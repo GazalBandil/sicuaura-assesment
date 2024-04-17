@@ -7,13 +7,13 @@ import './index.css'
 
 const router=createBrowserRouter([
   {
-    path:"login",
+    path:'/',
     element:<Login/>
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-     <RouterProvider route={router}/>
+     <RouterProvider router={router}/>
   </React.StrictMode>,
 )
